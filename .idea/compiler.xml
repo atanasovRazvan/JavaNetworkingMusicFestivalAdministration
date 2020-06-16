@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="221.MPP_Project_Java.MPP_Project_Java.main" target="1.8" />
+      <module name="221.MPP_Project_Java.MPP_Project_Java.test" target="1.8" />
+      <module name="MPP_Project_Java.MPP_Project_Java.main" target="1.8" />
+      <module name="MPP_Project_Java.MPP_Project_Java.test" target="1.8" />
+      <module name="MPP_Project_Java.MPP_Project_Java1.main" target="1.8" />
+      <module name="MPP_Project_Java.MPP_Project_Java1.test" target="1.8" />
+      <module name="Server.main" target="1.8" />
+      <module name="Server.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

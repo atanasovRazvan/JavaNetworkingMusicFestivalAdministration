@@ -1,0 +1,8 @@
+rootProject.name = 'MPP_Project_Java'
+include 'Server'
+include 'Client'
+include 'Entities'
+include 'Persistance'
+include 'Services'
+include 'Networking'
+

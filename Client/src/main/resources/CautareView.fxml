@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CautareController">
+   <children>
+      <TableView fx:id="table" layoutX="22.0" layoutY="22.0" prefHeight="358.0" prefWidth="303.0">
+        <columns>
+          <TableColumn fx:id="artistCol" prefWidth="75.0" text="Artist" />
+          <TableColumn fx:id="hourCol" prefWidth="75.0" text="Ora inceperii" />
+            <TableColumn fx:id="scenaCol" prefWidth="75.0" text="Scena" />
+            <TableColumn fx:id="llibereCol" prefWidth="75.0" text="Locuri libere" />
+        </columns>
+      </TableView>
+      <TextField fx:id="ziText" layoutX="406.0" layoutY="65.0" prefHeight="26.0" prefWidth="62.0" />
+      <TextField fx:id="lunaText" layoutX="406.0" layoutY="125.0" prefHeight="26.0" prefWidth="62.0" />
+      <TextField fx:id="anText" layoutX="406.0" layoutY="187.0" prefHeight="26.0" prefWidth="62.0" />
+      <Label layoutX="368.0" layoutY="69.0" text="Ziua" />
+      <Label layoutX="368.0" layoutY="129.0" text="Luna" />
+      <Label layoutX="368.0" layoutY="193.0" text="Anul" />
+      <Circle fill="DODGERBLUE" layoutX="537.0" layoutY="78.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="537.0" layoutY="200.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="sellBtn" layoutX="362.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleSellButton" text="Vinde bilet pentru acest spectacol" />
+      <TextField fx:id="numeText" layoutX="414.0" layoutY="314.0" prefHeight="26.0" prefWidth="163.0" />
+      <TextField fx:id="numarText" layoutX="414.0" layoutY="355.0" prefHeight="26.0" prefWidth="47.0" />
+      <Label layoutX="366.0" layoutY="319.0" text="Nume" />
+      <Label layoutX="357.0" layoutY="359.0" text="Nr_Locuri" />
+      <Button fx:id="findBtn" onAction="#handleFindButton" layoutX="365.0" layoutY="241.0" mnemonicParsing="false" text="Cauta" />
+   </children>
+</AnchorPane>
